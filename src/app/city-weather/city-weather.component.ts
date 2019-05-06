@@ -2,6 +2,7 @@ import { Component, OnInit, Input } from '@angular/core';
 import { Router } from '@angular/router';
 import { WeatherService } from '../weather.service';
 
+
 @Component({
   selector: 'city-weather',
   templateUrl: './city-weather.component.html',
