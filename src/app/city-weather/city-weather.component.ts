@@ -1,6 +1,7 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { Router } from '@angular/router';
 import { WeatherService } from '../weather.service';
+import { IconWeatherComponent } from '../icon-weather/icon-weather.component';
 
 
 @Component({

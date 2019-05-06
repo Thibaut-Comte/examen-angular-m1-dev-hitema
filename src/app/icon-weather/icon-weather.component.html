@@ -1,0 +1,7 @@
+<div class="weather-icon__container" [ngSwitch]="weather">
+  <i *ngSwitchCase="'rain'" class="fas fa-cloud-showers-heavy" [ngClass]="{'fa-10x': taille === 'index', 'fa-2x': taille === 'forecast'}"></i>
+  <i *ngSwitchCase="'sun'" class="fas fa-sun" [ngClass]="{'fa-10x': taille === 'index', 'fa-2x': taille === 'forecast'}"></i>
+  <i *ngSwitchCase="'clouds'" class="fas fa-cloud" [ngClass]="{'fa-10x': taille === 'index', 'fa-2x': taille === 'forecast'}"></i>
+  <i *ngSwitchCase="'storm'" class="fas fa-poo-storm" [ngClass]="{'fa-10x': taille === 'index', 'fa-2x': taille === 'forecast'}"></i>
+  <i *ngSwitchCase="'snow'" class="fas fa-snowflake" [ngClass]="{'fa-10x': taille === 'index', 'fa-2x': taille === 'forecast'}"></i> 
+</div>
